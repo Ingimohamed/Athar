@@ -909,8 +909,8 @@ a:focus {
 }
 
 .info_section {
-  background-color: #252525;
-  color: #ffffff;
+  background-color: #0F6B66;
+  color: #E7E3C1;
 }
 
 .info_section .info_top {
@@ -928,7 +928,7 @@ a:focus {
 
 .info_section .info_top .info_logo a {
   display: block;
-  background-color: #ffffff;
+  background-color: #E7E3C1;
   padding: 20px 35px;
 }
 
@@ -958,9 +958,9 @@ a:focus {
   outline: none;
   width: 100%;
   min-width: 100%;
-  color: #ffffff;
+  color: #E7E3C1;
   border: none;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #E7E3C1;
 }
 
 .info_section .info_form form input::-webkit-input-placeholder {
@@ -1021,7 +1021,7 @@ a:focus {
 }
 
 .info_section .info_links .info_links_menu a {
-  color: #ffffff;
+  color: #E7E3C1;
 }
 
 .info_section .info_links .info_links_menu a:not(:nth-last-child(1)) {
@@ -1121,7 +1121,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: #ffffff;
+  color: #E7E3C1;
   padding: 25px 0;
   margin: 0;
 }
