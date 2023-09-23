@@ -1,9 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #089396;
+  color: #0c0c0c;
   background-color: #F0F0F0;
   overflow-x: hidden;
 }
+p,h3{
+  color:#089396;
+}
+
 
 .layout_padding {
   padding: 90px 0;
