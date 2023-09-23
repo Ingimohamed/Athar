@@ -9,11 +9,21 @@ p,h3{
 }
 .gold-bg{
   background-color:#DBC49A;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   color:#FFFEF1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+ul{
+  list-style-type: square;
+  list-style-position: outside;
+  
 }
 
+ul li::marker{
+  color:#DAC296;
+}
 
 .layout_padding {
   padding: 90px 0;
