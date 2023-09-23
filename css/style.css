@@ -982,6 +982,14 @@ a:focus {
 .post_box p{
   color:#C2A76A;
 }
+.vector-last{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.pt-88{
+  padding-top: 162px;
+}
 
 .info_main_row h5{
   color:white;
