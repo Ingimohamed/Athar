@@ -4,9 +4,13 @@ body {
   background-color: #F0F0F0;
   overflow-x: hidden;
 }
-p,h3{
+p,h3,h5,h4{
   color:#089396;
 }
+.sub-title-size{
+font-size: 17px;
+}
+
 .gold-bg{
   background-color:#DBC49A;
   padding: 5px;
@@ -15,13 +19,34 @@ p,h3{
   text-align: center;
   margin-bottom: 30px;
 }
+.gold-bg h2{
+  color: white;
+}
+
 ul{
   list-style-type: square;
   list-style-position: outside;
-  
+}
+
+ol{
+  list-style-position: outside;
+}
+ol li{
+  line-height: 30px;
+  font-size: 17px;
+  color:#157974;
+}
+
+ul li{
+  color:#2A4A45;
+  font-weight: 500;
 }
 
 ul li::marker{
+  color:#DAC296;
+}
+
+ol li::marker{
   color:#DAC296;
 }
 
@@ -67,7 +92,10 @@ ul li::marker{
   font-weight: bold;
 }
 
-.heading_container h2 span {
+.heading_container h2  span {
+  color: #13746F;
+}
+h2{
   color: #13746F;
 }
 
@@ -139,11 +167,11 @@ a:focus {
 
 .navbar-brand {
   background-color: #ffffff;
-  padding: 15px 35px;
+  padding: 0px 14px;
 }
 
 .navbar-brand img {
-  width: 55px;
+  width: 100px;
 }
 
 .custom_nav-container {
@@ -948,12 +976,23 @@ a:focus {
 
 .info_section .info_top .info_logo a {
   display: block;
-  background-color: #E7E3C1;
-  padding: 20px 35px;
+  background-color: #FFFFFF;
+  padding: 13px 15px;
+}
+.post_box p{
+  color:#C2A76A;
+}
+
+.info_main_row h5{
+  color:white;
+}
+
+.info_links h5,.info_contact h5,.info_post h5{
+color:white;
 }
 
 .info_section .info_top .info_logo a img {
-  width: 55px;
+  width: 100px;
 }
 
 .info_section .info_form {
